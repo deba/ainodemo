@@ -6,20 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>git demonstration</name>
 	<description>Demonstrating git to team</description>
-	<repositories>
-		<repository>
-			<id>codehaus</id>
-			<url>http://repository.codehaus.org/org/codehaus</url>
-		</repository>
-	</repositories>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-mapper-asl</artifactId>
-			<version>1.9.13</version>
-		</dependency>
-	</dependencies>
+	
 
 	<build>
 		<testSourceDirectory>src/main/test</testSourceDirectory>
